@@ -45,7 +45,7 @@ st.sidebar.write('Get your groq API key at https://groq.com/')
 
 
 GROQ_API = st.sidebar.text_input("ENTER YOUR GROQ API KEY (IT'S FREE!!)",type="password")
-# GROQ_API = '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'
+
 
 if st.button('Generate summaries'):
     with st.spinner('Hold tight, generating summary...'):
@@ -76,8 +76,7 @@ if st.button('Generate summaries'):
         # GROQ
 
         # GROQ_API = st.sidebar.text_input("ENTER YOUR GROQ API KEY (IT'S FREE!!)",type="password")
-        # GROQ_API = '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'
-
+    
         # st.slider(label = 'Select the ')
 
         try:
