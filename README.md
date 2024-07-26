@@ -1,0 +1,2 @@
+# NewsSummarizer
+Summarize Live News
